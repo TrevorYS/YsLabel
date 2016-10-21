@@ -1,5 +1,6 @@
 # YsLabel
 #####长按Label复制粘贴
+ ![image](https://github.com/TracyYanghandsome/YsLabel/raw/master//D050AE5A-177C-4C99-AA5A-E9EE74D40E7A.png)
 ##Example
 ```objc
 YsLabel *label = [YsLabel new];
