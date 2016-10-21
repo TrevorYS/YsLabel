@@ -15,6 +15,7 @@
 		E50FF2C41DB9AFC600FD54B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50FF2C21DB9AFC600FD54B8 /* LaunchScreen.storyboard */; };
 		E50FF2CF1DB9AFC600FD54B8 /* YsLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E50FF2CE1DB9AFC600FD54B8 /* YsLabelTests.m */; };
 		E50FF2DA1DB9AFC600FD54B8 /* YsLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E50FF2D91DB9AFC600FD54B8 /* YsLabelUITests.m */; };
+		E50FF2E91DB9AFD500FD54B8 /* YsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50FF2E81DB9AFD500FD54B8 /* YsLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E50FF2D51DB9AFC600FD54B8 /* YsLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YsLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50FF2D91DB9AFC600FD54B8 /* YsLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YsLabelUITests.m; sourceTree = "<group>"; };
 		E50FF2DB1DB9AFC600FD54B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50FF2E71DB9AFD500FD54B8 /* YsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YsLabel.h; sourceTree = "<group>"; };
+		E50FF2E81DB9AFD500FD54B8 /* YsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YsLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		E50FF2B31DB9AFC600FD54B8 /* YsLabel */ = {
 			isa = PBXGroup;
 			children = (
+				E50FF2E71DB9AFD500FD54B8 /* YsLabel.h */,
+				E50FF2E81DB9AFD500FD54B8 /* YsLabel.m */,
 				E50FF2B71DB9AFC600FD54B8 /* AppDelegate.h */,
 				E50FF2B81DB9AFC600FD54B8 /* AppDelegate.m */,
 				E50FF2BA1DB9AFC600FD54B8 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50FF2E91DB9AFD500FD54B8 /* YsLabel.m in Sources */,
 				E50FF2BC1DB9AFC600FD54B8 /* ViewController.m in Sources */,
 				E50FF2B91DB9AFC600FD54B8 /* AppDelegate.m in Sources */,
 				E50FF2B61DB9AFC600FD54B8 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YsLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanghandsome.YsLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YsLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanghandsome.YsLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
